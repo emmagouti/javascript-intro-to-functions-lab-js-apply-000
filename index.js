@@ -22,14 +22,18 @@ function sayHiToGrandma(string) {
   let love = "I love you.";
   if (low === string)
     {
-      console.log("I can't hear you!");
+      string = "I can't hear you!"
+      return string;
+    
     }
   else if (high === string)
   {
-    console.log("YES INDEED!");
+    string = "YES INDEED!";
+    return string;
   }
   else if (love === string)
   {
-    console.log("I love you, too.");
+    string = "I love you, too.";
+    return string;
   }
   }
