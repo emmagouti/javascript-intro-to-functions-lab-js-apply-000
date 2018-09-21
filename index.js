@@ -19,7 +19,7 @@ function logWhisper(string) {
 function sayHiToGrandma(string) {
   let low = "hello";
   let high = "HELLO";
-  let love = "I love you.";
+  let love = "I love you, Grandma.";
   if (low === string)
     {
       string = "I can't hear you!"
